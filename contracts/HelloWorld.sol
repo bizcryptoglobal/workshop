@@ -9,9 +9,9 @@ contract HelloWorld {
   string private message;
  
   function getMessage () constant returns (string) {
-    return message;
+      return message;
   }
   function setMessage(string newMessage) {
-    message = newMessage;
+      message = newMessage;
   }
-}
+  
